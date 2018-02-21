@@ -1,45 +1,39 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+# Code Challage - Frontend
+Hola,
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+Antes de nada, agradecerte dedicar parte de tu tiempo a la realización de este pequeña prueba técnica.
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+Ésta consiste en el desarrollo de la parte frontend de una sencilla SPA (Single Page Application) de gestión de tareas.
 
----
+Se debe crear un servicio para obtener las tareas del siguiente endpoint:
+`GET https://jsonplaceholder.typicode.com/todos`
 
-## Edit a file
 
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
+![Wireframe](https://puu.sh/yWLQy/530cabea29.png)
 
-1. Click **Source** on the left side.
-2. Click the README.md link from the list of files.
-3. Click the **Edit** button.
-4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
+## Funciones
+- Mostrar el listado de tareas.
+- Filtrar las tareas a través de una caja de texto.
+- Marcar/Desmarcar tareas como realizadas.
+- Eliminar tareas
+- Añadir nuevas tareas.
 
----
+Los cambios realizados sobre el listado de tareas, no es necesario que tengan persistencia en backend. Al actualizar la página, se resetearán todos los datos, mostrando de nuevo el contenido original obtenido a través del endpoint facilitado.
 
-## Create a file
+## Requisitos
+- Framework moderno: Vue.js, ReactJS, Angular 4 o 5.
+- El diseño debe de ser responsive.
+- La interface debe estar dividida en componentes, según tu criterio.
+- Hoja de estilos con LESS o Sass.
+## Bonus
+- Test unitarios.
+- Diseño atractivo.
+- Comentarios en el código.
+## Workflow
+- Haz un fork de este repositorio.
+- Resuelve el ejercicio.
+- Comparte tu fork con para la corrección (Reporter access)
 
-Next, you’ll add a new file to this repository.
+Si tienes alguna duda, puedes contactar con nosotros en `tech@letsgoi.com`
 
-1. Click the **New file** button at the top of the **Source** page.
-2. Give the file a filename of **contributors.txt**.
-3. Enter your name in the empty file space.
-4. Click **Commit** and then **Commit** again in the dialog.
-5. Go back to the **Source** page.
-
-Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
-
----
-
-## Clone a repository
-
-Use these steps to clone from SourceTree, our client for using the repository command-line free. Cloning allows you to work on your files locally. If you don't yet have SourceTree, [download and install first](https://www.sourcetreeapp.com/). If you prefer to clone from the command line, see [Clone a repository](https://confluence.atlassian.com/x/4whODQ).
-
-1. You’ll see the clone button under the **Source** heading. Click that button.
-2. Now click **Check out in SourceTree**. You may need to create a SourceTree account or log in.
-3. When you see the **Clone New** dialog in SourceTree, update the destination path and name if you’d like to and then click **Clone**.
-4. Open the directory you just created to see your repository’s files.
-
-Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
+Muchas gracias y suerte.
