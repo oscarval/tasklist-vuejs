@@ -32,7 +32,7 @@ Los cambios realizados sobre el listado de tareas, no es necesario que tengan pe
 ## Workflow
 - Haz un fork de este repositorio.
 - Resuelve el ejercicio.
-- Comparte tu fork con para la corrección (Reporter access)
+- Comparte tu fork para la corrección (Reporter access)
 
 Si tienes alguna duda, puedes contactar con nosotros en `tech@letsgoi.com`
 
