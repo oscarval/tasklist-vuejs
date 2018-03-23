@@ -21,7 +21,7 @@ Se debe crear un servicio para obtener las tareas del siguiente endpoint:
 Los cambios realizados sobre el listado de tareas, no es necesario que tengan persistencia en backend. Al actualizar la página, se resetearán todos los datos, mostrando de nuevo el contenido original obtenido a través del endpoint facilitado.
 
 ## Requisitos
-- Framework moderno: Vue.js, ReactJS, Angular 4 o 5.
+- Framework moderno: Vue.js o ReactJS
 - El diseño debe de ser responsive.
 - La interface debe estar dividida en componentes, según tu criterio.
 - Hoja de estilos con LESS o Sass.
