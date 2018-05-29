@@ -1,7 +1,14 @@
 <template>
   <div id="app">
-    <h2>Lista de tareas</h2>
-    <router-view/>
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="#">Task List</a>
+    </nav>
+    <!-- This code keep alive the navigate -->
+    <transition>
+      <keep-alive>
+        <router-view></router-view>
+      </keep-alive>
+    </transition>
   </div>
 </template>
 
