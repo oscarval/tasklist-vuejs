@@ -2,16 +2,12 @@
 import Vue from 'vue';
 export default {
     name: 'Todos',
-    list: {},
+    /*
+    Create a method getList to call to api and receive the data.
+    */
     methods: {
         getList(){
            return Vue.http.get("https://jsonplaceholder.typicode.com/todos");
-        //    .then(data =>{
-        //         console.log("first");
-        //         this.list = data.json();
-        //     }, error => {
-        //         console.error(error);
-        //     });
         }
     }
 }

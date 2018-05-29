@@ -7,7 +7,7 @@
 
 <script>
 
-
+// Initialized the app 
 export default {
   name: 'App'
 }
